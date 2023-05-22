@@ -1,5 +1,5 @@
 ### Hi there 👋
 
-- 🔭 Working on personal projects.
+- 🔭 Working on personal projects. Check in my repo..
 - 🌱 Node.js, React, Mongoose, SCSS, Python, Figma
 
