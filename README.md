@@ -1,5 +1,5 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on personal projects.
-- 🌱 I’m currently learning Node.js along with Express.
+- 🔭 Working on personal projects.
+- 🌱 Node.js, React, Mongoose, SCSS, Python, Figma
 
