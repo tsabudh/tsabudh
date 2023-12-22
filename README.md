@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Sabudh Bahadur Thapa</h1>
-<h3 align="center">A full stack engineer currently working on web applications.</h3>
+<h3 align="center">A computer engineer currently working on web applications.</h3>
 
 - 🌱 I’m currently learning **Caching and Message Queues.**
 
-- 👨‍💻 All of my projects are available at [tsabudh.com.np](tsabudh.com.np)
+- 👨‍💻 Visit my website [tsabudh.com.np](tsabudh.com.np)
 
 - 💬 Ask me about **Node, React, JS**
 
