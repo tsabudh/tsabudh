@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **Caching and Message Queues.**
 
-- 👨‍💻 Visit my website [tsabudh.com.np](tsabudh.com.np)
+- 👨‍💻 Visit my website [tsabudh.com.np](https://tsabudh.com.np)
 
 - 💬 Ask me about **Node, React, JS**
 
