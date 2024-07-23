@@ -3,7 +3,7 @@
 
 - 👨‍💻 Visit my website <a href="https://tsabudh.com.np" target="_blank">tsabudh.com.np</a>
 
-- 💬 Ask me about **Node, React, JS**
+- 💬 Ask me about **Node, React, JS, Spring**
 
 - 📫 How to reach me **tsabudh@gmail.com**
 
