@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sabudh Bahadur Thapa</h1>
-<h3 align="center">A computer engineer currently working on web applications.</h3>
-
-- 🌱 I’m currently learning **Caching and Message Queues.**
+<h3 align="center">A computer engineer with expertise in web technologies.</h3>
 
 - 👨‍💻 Visit my website <a href="https://tsabudh.com.np" target="_blank">tsabudh.com.np</a>
 
