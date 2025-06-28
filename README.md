@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sabudh!</h1>
-<h3 align="center">A computer engineer crafting solutions.</h3>
+<h3 align="center">A software engineer crafting solutions.</h3>
 
 - 👨‍💻 Visit my website <a href="https://tsabudh.com.np" target="_blank">tsabudh.com.np</a>
 
