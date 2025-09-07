@@ -3,15 +3,16 @@
 
 - 👨‍💻 Visit my website <a href="https://tsabudh.com.np" target="_blank">tsabudh.com.np</a>
 
-- 💬 Ask me about **Node, React, TypeScript**
-
-- 📫 How to reach me **tsabudh@gmail.com**
+- 💬 Ask me about `Node` `React` `TypeScript`
+- 💬 Teach me `System Design` `Rust` `Distributed Systems`
+- 📫 Mail me at <a href="mailto:tsabudh@gmail.com">tsabudh@gmail.com</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/tsabudh" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tsabudh" height="30" width="40" /></a>
 <a href="https://fb.com/tsabudh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tsabudh" height="30" width="40" /></a>
 <a href="https://instagram.com/tsabudh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tsabudh" height="30" width="40" /></a>
+<a href="https://www.reddit.com/user/tsabudh/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/reddit.svg" alt="tsabudh" height="30" width="40" /></a>
 
 </p>
 
@@ -20,6 +21,7 @@
  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a> 
  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a> 
  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a> 
+ <a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" alt="rust" title="rust" width="40" height="40"/></a> 
 </p>	
 
 <p align="left>
