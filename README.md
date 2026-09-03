@@ -1,58 +1,37 @@
-<h1 align="center">Hi, I'm Sabudh Bahadur Thapa</h1>
-<h3 align="center">Backend / platform engineer building event-driven, data-intensive systems.</h3>
+# Sabudh Thapa
 
-<p align="center">
-  <a href="https://tsabudh.com.np" target="_blank">Portfolio</a> |
-  <a href="https://linkedin.com/in/tsabudh" target="_blank">LinkedIn</a> |
-  <a href="mailto:tsabudh@gmail.com">Email</a>
-</p>
+backend / distributed systems engineer · Kathmandu, Nepal
 
-## About Me
+**I build the plumbing behind reliable products.**
 
-I spend most of my time around backend systems that have opinions: APIs that need clean contracts, workers that need to survive bad days, databases that deserve better query plans, and queues that quietly punish sloppy assumptions.
+Event-driven systems, data infrastructure, and reliability for production financial-data platforms. Systems where data stays correct under load, retries, and partial failure.
 
-My direction is backend-heavy: distributed systems, platform engineering, data infrastructure, PostgreSQL depth, Kafka reliability, observability, and the occasional Rust component when correctness needs sharper tools.
+## What I build
 
-## Current Focus
+**Service-oriented backend systems**
+APIs, workers, database-backed workflows, and service boundaries. Billing and entitlements built as data rather than code, so a second payment provider needs no schema change.
 
-- Building production backend and data infrastructure for financial-data systems
-- Event-driven workers: Kafka, Avro, retries, DLQs, graceful shutdown, and consumer lag
-- PostgreSQL performance, analytical query paths, DuckDB, Parquet, and S3
-- Identity reconciliation, provenance, resumable pipelines, and OpenTelemetry traces
-- Rust for precision-sensitive or correctness-critical boundaries
+**Idempotent job processing**
+One Kafka backbone with Avro schemas for data operations, workflows, and notifications. Idempotent producers, DLQ replay, ordered shutdown, and correlation-ID tracing across workers.
 
-## Ask Me About
+**Data that stays correct under failure**
+Identity resolution as its own layer: canonical records rebuilt nightly across ~6,000 companies with weighted source precedence and append-only provenance, so a bad source can be retracted.
 
-- Backend architecture in TypeScript, Node.js, Fastify, Express, REST, gRPC, and WebSocket systems.
-- PostgreSQL performance, indexing, constraints, query plans, partitioning, and production recovery.
-- Kafka, message queues, idempotency, back-pressure, DLQ replay, and event-driven reliability.
-- Redis caching, worker orchestration, cron systems, Docker, AWS EC2/S3, and observability.
-- Rust for precision arithmetic, data processing, and correctness-critical service boundaries.
+**Queries shaped for the data they read**
+Screener serving moved from PostgreSQL row-store plans to DuckDB over S3-backed Parquet. Nearly 100 freely combinable metrics, custom ranges under 600ms, down from 8-22s.
 
-## Languages and Tools
+**Recovery engineering and auditability**
+84 GB of production PostgreSQL cut over from Neon to RDS with ingestion never stopped. Structured logs draining to S3 as Parquet after undrained container logs took Redis down.
 
-<p align="left">
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/></a>
-  <a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" alt="rust" width="40" height="40"/></a>
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
-  <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-  <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-</p>
+## Notes
 
-## Connect
+- [When Indexes Stop Helping: Columnar Engines](https://tsabudh.com.np/blog/when-indexes-stop-helping-columnar-engines/)
+- [Indexing Is Query Design, Not Column Decoration](https://tsabudh.com.np/blog/indexing-is-query-design-not-column-decoration/)
+- [Why Your App Slows Down When Users Increase](https://tsabudh.com.np/blog/why-your-app-slows-down-when-users-increase/)
+- [Backpressure playground](https://tsabudh.com.np/systems/backpressure/), a Rust/WASM model of event flow under failure
 
-<p align="left">
-  <a href="https://linkedin.com/in/tsabudh" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" /></a>
-  <a href="https://fb.com/tsabudh" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="facebook" height="30" width="40" /></a>
-  <a href="https://instagram.com/tsabudh" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" height="30" width="40" /></a>
-  <a href="https://www.reddit.com/user/tsabudh/" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/reddit.svg" alt="reddit" height="30" width="40" /></a>
-</p>
+## Stack
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tsabudh&layout=compact&theme=dark)
+TypeScript, Node.js, Fastify · Python · Rust · PostgreSQL · Kafka, Avro · Redis · DuckDB, Parquet, S3 · Docker, AWS · OpenTelemetry
+
+[tsabudh.com.np](https://tsabudh.com.np) · [Resume](https://tsabudh.com.np/resume/) · [LinkedIn](https://linkedin.com/in/tsabudh) · tsabudh@gmail.com
