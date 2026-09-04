@@ -4,7 +4,7 @@ backend / distributed systems engineer · Kathmandu, Nepal
 
 **I build the plumbing behind reliable products.**
 
-Event-driven systems, data infrastructure, and reliability for production financial-data platforms. Systems where data stays correct under load, retries, and partial failure.
+I own the backend and data infrastructure of a production financial-data platform: event-driven workers, PostgreSQL and DuckDB data paths, and the recovery paths that keep data correct under load, retries, and partial failure. Software engineer in Kathmandu, Nepal, backend work since 2022.
 
 ## What I build
 
